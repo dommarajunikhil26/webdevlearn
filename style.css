@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('https://cutewallpaper.org/21/hd-fitness-wallpaper/Exercise-Wallpapers-Aa-WallpaperTag.jpg');
+}
+
+/* left content of navigation bar */
+
+.navbar{
+    display: flex;
+    color: white;
+}
+.navbar .navleft{
+    display: flex;
+    width: 10%; 
+}
+.navbar .navleft a{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: white;
+}
+.navbar .navleft a #logo-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+.navbar .navleft a #logo-text:hover{
+    color: cyan;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* middle content of navigation bar */
+
+.navbar .navmid{
+    display: flex;
+    width: 80%;
+}
+.navbar .navmid ul{
+    display: flex;
+    margin: auto;
+}
+.navbar .navmid li{
+    list-style: none;
+    float: left;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.navbar .navmid li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .navmid li:hover{
+    color: cyan;
+    }
+.navbar .navmid li a:hover{
+    color: cyan;
+}
+
+/* right content of navigation bar */
+
+.navbar .navright{
+    display: flex;
+    width: 10%;
+}
+.navbar .material-icons{
+    margin: auto;
+}
+
+/* Media Queries  */
+@media screen and (max-width: 540px) {
+    .navbar .navleft{
+        display: flex;
+        width: 12.5%;
+    }
+    .navbar .navleft a #logo-text{
+        display: none;
+    }
+    .navbar .navmid{
+        display: flex;
+        width: 75%;
+    }
+    .navbar .navmid ul{
+        display: none;
+    }
+    .navbar .navright{
+        display: flex;
+        width: 12.5%;
+    }
+    .navbar .navright .material-icons{
+        margin: auto;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('https://cutewallpaper.org/21/hd-fitness-wallpaper/Exercise-Wallpapers-Aa-WallpaperTag.jpg');
+        background-repeat: no-repeat;
+        background-size: 540px 540px;
+    } 
+}
+@media screen and (max-width: 768px) {
+    body{
+        background: url('https://cutewallpaper.org/21/hd-fitness-wallpaper/Exercise-Wallpapers-Aa-WallpaperTag.jpg');
+        background-repeat: no-repeat;
+        background-size: 768px 540px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    body{
+        background: url('https://cutewallpaper.org/21/hd-fitness-wallpaper/Exercise-Wallpapers-Aa-WallpaperTag.jpg');
+        background-repeat: no-repeat;
+        background-size: 1024px 540px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    body{
+        background: url('https://cutewallpaper.org/21/hd-fitness-wallpaper/Exercise-Wallpapers-Aa-WallpaperTag.jpg');
+        background-repeat: no-repeat;
+        background-size: 1200px 540px;
+    }
+}
+
